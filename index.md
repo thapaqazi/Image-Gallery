@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Responsive Image Gallery</h1>
+    <div class="container">
+        <div class="mainImg" id='test'>
+            <img src="freedom.jpg" alt="Freedom">
+        </div>
+        <div class="smallImages">
+            <div class="flexible">
+            <div class="smallImage">
+                <img src="insideClouds.jpg" alt="Clouds">
+            </div>
+            <div class="smallImage">
+                <img src="gradiantHills.jpg" alt="Hills">
+            </div>
+            <div class="smallImage">
+                <img src="blackMirror.jpg" alt="blackMirror">
+            </div>
+            <div class="smallImage">
+                <img src="milkyWay.jpg" alt="galaxy">
+            </div>
+            <div class="smallImage">
+                <img src="freedom.jpg" alt="Freedom">
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
